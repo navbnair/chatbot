@@ -23,7 +23,7 @@ By using two separate neural networks (RNN), where one acts as an encoder that e
 
 # Masked loss
 
-Due to the zero padding, we cannot consider all elements of the tensor whne we calculate loss. The function helps to calculate the loss based on the decoders output tensor, the target tensor and a binary mask tensor. The loss function calculates the negative log likelihood of the elements that correpsond to a 1.
+Due to the zero padding, we cannot consider all elements of the tensor whne we calculate loss. The function helps to calculate the loss based on the decoders output tensor, the target tensor and a binary mask tensor. The loss function calculates the negative log likelihood of the elements that correspond to a 1.
 
 # Sequence of operations
 
